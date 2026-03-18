@@ -32,30 +32,28 @@ const HomeScreen = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f5f5f5',
+    backgroundColor: '#fff',
   },
   list: {
-    padding: 16,
+    paddingHorizontal: 16,
+    paddingVertical: 16,
   },
   separator: {
     height: 12,
   },
   card: {
     backgroundColor: '#fff',
-    borderRadius: 10,
+    borderRadius: 6,
     padding: 12,
     flexDirection: 'row',
     alignItems: 'center',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.08,
-    shadowRadius: 6,
-    elevation: 2,
+    borderWidth: 1,
+    borderColor: '#eee',
   },
   thumbnail: {
-    width: 64,
+    width: 96,
     height: 64,
-    borderRadius: 8,
+    borderRadius: 4,
     backgroundColor: '#eaeaea',
   },
   info: {
@@ -68,8 +66,8 @@ const styles = StyleSheet.create({
   },
   author: {
     marginTop: 4,
-    fontSize: 13,
-    color: '#666',
+    fontSize: 12,
+    color: '#888',
   },
 });
 
